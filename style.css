@@ -1,0 +1,55 @@
+.navbar{  
+  background-color: #d82a78; 
+}
+.navbar-brand{
+  color:white;
+  padding: 20px;
+  margin: 20px;
+  
+}
+.navbar-toggler{
+  margin: 1em;
+  /* background-color: white; */
+}
+.nav-link{
+  margin: 10px;
+  padding: 5px;
+}
+
+body{
+background: #e96443;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.box1{
+        border: 3px solid rgb(129, 129, 129);
+        margin-left: 22%;
+        margin-top: 80px;
+        margin-bottom: 30px;
+        height: 50%;
+        width: 50%;
+        padding: 20px;
+        background-color: rgb(236, 238, 238);
+        border-radius: 5px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+}
+h1{
+  text-align: center;
+      
+}
+form{
+    margin: 50px;
+}
+label{
+   margin-top: 20px;
+}
+input{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+input::selection{
+    border-color: blue;
+}
+
